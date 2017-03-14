@@ -1,4 +1,45 @@
-body {
-  background: white url(https://s-media-cache-ak0.pinimg.com/564x/aa/bf/c3/aabfc3ee165b971d1025dc63d4f1c229.jpg) no-repeat;
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+ /* image du header*/
+header img
+{
   width: 100%;
 }
+
+/* menu horizontal*/
+
+nav
+{
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+}
+
+nav li
+{
+  display: inline-block;
+  list-style-type: none;
+  background-color: #DCDCDC;
+  height: 24px;
+  margin:auto;
+}
+
+/* mise en forme des liens dans le menu */
+nav a
+{
+  padding: 5em;
+  text-decoration: none;
+  color: #696969;
+  padding-left: 5em;
+
+}
+
+/* centrer le menu horizontal */
+nav ul
+ {
+   text-align: center;
+ }
