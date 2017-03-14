@@ -88,6 +88,46 @@ body
 }
 
 
+/* ---------- PAGE 2 / TARIF ---------- */
+
+/* tableau de prestations */
+table
+{
+  border-collapse: collapse;
+  margin: auto;
+}
+caption
+{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+td
+{
+  border : 2px solid black;
+  width: 10em;
+  height: 6em;
+  text-align: center;
+}
+
+th
+{
+  border : 3px solid grey;
+  width: 10em;
+  height: 6em;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Menu footer partie gauche*/
@@ -115,17 +155,19 @@ body
 footer{
   background-color: #DCDCDC;
   height:59px;
-  position: absolute;
   width: 100%;
   bottom: 0;
+  margin-top: 3em;
 }
 
+/* style des liens dans le footer */
 footer a
 {
   text-decoration: none;
   color: #696969;
 }
 
+/* style des liens survolés */
 footer a:hover
 {
   text-decoration: underline;
