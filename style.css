@@ -51,7 +51,12 @@ nav a
   text-decoration: none;
   color: #696969;
   padding-left: 5em;
+}
 
+a:hover {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
 }
 
 /* centrer le menu horizontal */
