@@ -4,6 +4,10 @@
   padding: 0;
   font-family: Quicksand;
 }
+html
+{
+  height: 100%;
+}
  /* image du header*/
 header h1
 {
@@ -53,7 +57,8 @@ nav a
   padding-left: 5em;
 }
 
-a:hover {
+/* style du texte au passage de la souris */
+nav a:hover {
   text-decoration: underline;
   color: black;
   font-weight: bold;
@@ -73,4 +78,55 @@ hr
   width: 600px;
   position: relative;
   margin: 1em auto 1em auto;
+}
+
+/* Aide à régler le footer en bas */
+body
+{
+  min-height: 100%;
+  position: relative;
+}
+
+
+
+
+/*Menu footer partie gauche*/
+#menu_footer_left
+{
+  list-style-type: none;
+  float: left;
+  margin-left: 1em;
+  padding-left: 1em;
+  text-align: left;
+  padding-top: 0.5em;
+}
+
+/*Menu footer partie droite*/
+#menu_footer_right{
+  list-style-type: none;
+  float: right;
+  margin-right: 1em;
+  padding-right: 1em;
+  text-align: right;
+  padding-top: 0.5em;
+}
+
+/*Espace et couleur du footer*/
+footer{
+  background-color: #DCDCDC;
+  height:59px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a
+{
+  text-decoration: none;
+  color: #696969;
+}
+
+footer a:hover
+{
+  text-decoration: underline;
 }
