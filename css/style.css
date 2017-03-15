@@ -212,6 +212,47 @@ iframe
 {
   cursor: pointer;
 }
+/* ---------- FIN DE LA PAGE 3 ----------- */
+
+/* ---------- PAGE 4 / NOS REALISATIONS ----------- */
+
+/* Reglage photo ligne 1 */
+.haut img
+{
+  border-radius: 100%;
+  width: 30%;
+  height: 30%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.haut
+{
+  text-align: center;
+  margin-top: 4%;
+}
+
+/* Reglage photos ligne 2 */
+.bas img
+{
+  border-radius: 100%;
+  width: 30%;
+  height: 30%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.bas
+{
+  text-align: center;
+  margin-top: 4%;
+}
+
+
+
+/* ---------- FIN DE LA PAGE 4 ----------- */
+
+/* ----------------- FOOTER --------------*/
 
 /*Menu footer partie gauche*/
 #menu_footer_left
