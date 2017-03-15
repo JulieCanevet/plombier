@@ -4,10 +4,13 @@
   padding: 0;
   font-family: Quicksand;
 }
+
 html
 {
   height: 100%;
 }
+
+/* ---------------- HEADER ------------------ */
  /* image du header*/
 header h1
 {
@@ -59,10 +62,12 @@ nav a
 }
 
 /* style du texte au passage de la souris */
-nav a:hover {
+nav a:hover
+{
   text-decoration: underline;
   color: black;
   font-weight: bold;
+  cursor: default;
 }
 
 /* centrer le menu horizontal */
@@ -87,6 +92,8 @@ body
   min-height: 100%;
   position: relative;
 }
+
+/* ------------------ FIN DU HEADER ---------------- */
 
 /* ------------ PAGE 1 / ACCUEIL ---------- */
 
@@ -121,7 +128,7 @@ body
   margin-right: 5em;
 }
 
-
+/* --------- FIN DE PAGE 1 / ACCUEIL ------- */
 
 /* ---------- PAGE 2 / TARIF ---------- */
 
@@ -137,9 +144,14 @@ caption
   margin-bottom: 2em;
 }
 
+#titre th
+{
+  background-color: #DCDCDC;
+}
+
 td
 {
-  border : 2px solid black;
+  border : 1px solid black;
   width: 10em;
   height: 6em;
   text-align: center;
@@ -147,19 +159,59 @@ td
 
 th
 {
-  border : 3px solid grey;
+  border : 1px solid grey;
   width: 10em;
   height: 6em;
   text-align: center;
-  background-color: #DCDCDC;
+  background-color: #B0E0E6;
+  border-color: #FFA500;
 }
 
+/* ------------ FIN DE PAGE 2 / TARIF ------------ */
 
+/* ------------- PAGE 3 / CONTACT ------------- */
 
+/* Formulaire */
 
+input, textarea
+{
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+}
 
+input
+{
+  height: 30%;
+  width: 20%;
+}
 
+form
+{
+  margin-top: 3%;
+}
 
+/* Google map */
+iframe
+{
+  display: block;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.page3 h3
+{
+  margin-top: 3%;
+}
+
+.envoyer:hover
+{
+  cursor: pointer;
+}
 
 /*Menu footer partie gauche*/
 #menu_footer_left
