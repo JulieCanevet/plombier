@@ -11,7 +11,7 @@ html
  /* image du header*/
 header h1
 {
-  background-image: url(img/header_plombie.png);
+  background-image: url(../img/header_plombie.png);
   width: 100%;
   height: 250px;
   text-align: center;
@@ -19,6 +19,7 @@ header h1
   line-height: 6em;
   font-size: 40px;
   text-transform: uppercase;
+  text-shadow: -5px 8px 10px black;
 }
 
 /* texte "plombiers du Nord" sur photo du header */
@@ -75,9 +76,9 @@ nav ul
 hr
 {
   border: solid 1px grey;
-  width: 600px;
+  width: 50%;
   position: relative;
-  margin: 1em auto 1em auto;
+  margin: 1% auto 2% auto;
 }
 
 /* Aide à régler le footer en bas */
@@ -86,6 +87,40 @@ body
   min-height: 100%;
   position: relative;
 }
+
+/* ------------ PAGE 1 / ACCUEIL ---------- */
+
+/* Mise en page des sous-titres */
+.page1 h2
+{
+  margin-top: 2em;
+}
+
+.page1 h2, h3
+{
+  text-align: center;
+}
+/* réglage du lien "contact" */
+.page1 a
+{
+  color: grey;
+  text-decoration: none;
+}
+
+.page1 a:hover
+{
+  text-decoration: underline;
+}
+
+/* Mise en forme du texte de présentation */
+.page1 p
+{
+  text-align: center;
+  margin: 2em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
 
 
 /* ---------- PAGE 2 / TARIF ---------- */
@@ -116,12 +151,8 @@ th
   width: 10em;
   height: 6em;
   text-align: center;
+  background-color: #DCDCDC;
 }
-
-
-
-
-
 
 
 
