@@ -138,17 +138,21 @@ table
   border-collapse: collapse;
   margin: auto;
 }
+
+/* Titre du tableau */
 caption
 {
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
+/* Rangée haute */
 #titre th
 {
   background-color: #DCDCDC;
 }
 
+/* Cases blanches */
 td
 {
   border : 1px solid black;
@@ -157,6 +161,7 @@ td
   text-align: center;
 }
 
+/* colone grise */
 th
 {
   border : 1px solid grey;
@@ -203,11 +208,18 @@ iframe
   margin-top: 3%;
 }
 
+/* Titre du tableau */
 .page3 h3
 {
   margin-top: 3%;
 }
+ /* Titre de la google map */
+h4
+{
+  text-align: center;
+}
 
+/* stylisation du curseur */
 .envoyer:hover
 {
   cursor: pointer;
