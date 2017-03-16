@@ -133,6 +133,12 @@ body
 /* ---------- PAGE 2 / TARIF ---------- */
 
 /* tableau de prestations */
+.page2 h2
+{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 table
 {
   border-collapse: collapse;
