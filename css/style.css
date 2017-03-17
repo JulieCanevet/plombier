@@ -284,7 +284,8 @@ h4
 }
 
 /*Menu footer partie droite*/
-#menu_footer_right{
+#menu_footer_right
+{
   list-style-type: none;
   float: right;
   margin-right: 1em;
@@ -294,7 +295,8 @@ h4
 }
 
 /*Espace et couleur du footer*/
-footer{
+footer
+{
   background-color: #DCDCDC;
   height:59px;
   width: 100%;
